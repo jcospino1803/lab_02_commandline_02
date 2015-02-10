@@ -19,7 +19,7 @@ $ echo hello
 Copy and paste the output below.
 ----------
 
-
+hello
 
 ==========
 2. Type:
@@ -29,7 +29,7 @@ $ echo hello there
 Copy and paste the output below.
 ----------
 
-
+hello there
 
 ==========
 3. Type:
@@ -39,13 +39,17 @@ $ echo good mornin'
 Copy and paste the output below.
 ----------
 
-
+good mornin
 
 ==========
 4. Uh-oh... we're stuck!
 
 Type [CTRL + C] to get your prompt back.
 ----------
+
+> 
+ent-v321-016:~ student$ 
+ent-v321-016:~ student$ 
 
 
 
@@ -57,7 +61,7 @@ $ echo "good mornin'"
 Copy and paste the output below.
 ----------
 
-
+good morning'
 
 ==========
 6. There are some other symbols that have special meanings if you don't quote them.  For example, > brings up a different prompt.  Try *.
@@ -67,14 +71,15 @@ $ echo *
 What happens?
 ----------
 
-
+it listed all the directories and downloads 
+Applications Desktop Documents Downloads Library Movies Music My Song.band Pictures Public Sites Things VirtualBox VMs mtec1003 vms
 
 ==========
 7. Ok... that's a lot of output.  How do we clean up our screen so that it's empty again?
 
 Write the command that you used below:
 ----------
-
+clear 
 
 
 ==========
@@ -88,6 +93,12 @@ $ curl google.com
 Copy and paste the output below.
 ----------
 
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="http://www.google.com/">here</A>.
+</BODY></HTML>
 
 
 ==========
@@ -97,7 +108,7 @@ $ curl www.google.com
 
 Copy and paste the output below, but not the whole thing!  Just copy up to the part that has the title tags (<title>......</title>).
 ----------
-
+<title>Google</title>
 
 
 ==========
@@ -106,7 +117,7 @@ Copy and paste the output below, but not the whole thing!  Just copy up to the p
 Write the command you used below.  Also copy and paste the output below.
 ----------
 
-
+Curl -o google.html htpp://google.com
 
 ==========
 11. Now let's download the lab file for this homework.  First, figure out what directory you're in.
